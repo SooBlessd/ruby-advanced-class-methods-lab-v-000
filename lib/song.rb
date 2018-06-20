@@ -63,7 +63,7 @@ class Song
     song.artist_name = split_filename[0]
     song.save
     song
-  binding.pry
+  # binding.pry
   end
   
   def self.all
