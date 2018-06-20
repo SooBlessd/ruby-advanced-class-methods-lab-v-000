@@ -76,7 +76,7 @@ class Song
   end
   
   def self.destroy_all
-    @@all.reject
+    @@all.
   end
 
 end
