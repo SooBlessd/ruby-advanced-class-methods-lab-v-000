@@ -66,9 +66,6 @@ class Song
   # binding.pry
   end
   
-  def self.destroy_all
-    self.reject.all
-  end
   
   def self.all
     @@all
@@ -76,6 +73,10 @@ class Song
 
   def save
     self.class.all << self
+  end
+  
+  def self.destroy_all
+    self.reject.all
   end
 
 end
