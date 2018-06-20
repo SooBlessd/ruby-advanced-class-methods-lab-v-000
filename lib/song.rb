@@ -51,11 +51,12 @@ class Song
     song.name = split_filename[1]
     song.artist_name = split_filename[0]
     song
+    binding.pry
   end
   
   def self.create_from_filename(filename)
     self.new_from_filename
-    binding.pry
+    
   end
   
   def self.all
