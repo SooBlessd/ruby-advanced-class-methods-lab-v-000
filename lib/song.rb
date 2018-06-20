@@ -50,7 +50,7 @@ class Song
     song = self.new
     song.name = split_filename[1]
     song.artist_name = split_filename[0]
-    song
+    # song
     binding.pry
   end
   
